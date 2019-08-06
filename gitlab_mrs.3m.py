@@ -11,9 +11,9 @@ import sys
 # <bitbar.author>Anton Zering</bitbar.author>
 # <bitbar.author.github>synthomat</bitbar.author.github>
 # <bitbar.desc>Shows a summary of open Merge Requests on a GitLab instance</bitbar.desc>
-# <bitbar.image>http://www.hosted-somewhere/pluginimage</bitbar.image>
+# <bitbar.image>https://github.com/synthomat/gitlab_mrs/raw/master/img/gitlab_mrs-v1.png</bitbar.image>
 # <bitbar.dependencies>python</bitbar.dependencies>
-# <bitbar.abouturl>http://url-to-about.com/</bitbar.abouturl>
+# <bitbar.abouturl>https://github.com/synthomat/gitlab_mrs</bitbar.abouturl>
 
 token_file_name = ".gitlab_mrs"
 token_file_path = os.path.join(Path.home(), token_file_name)
