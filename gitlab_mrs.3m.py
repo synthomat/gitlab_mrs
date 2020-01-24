@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/env python3
 import json
 import http.client
 import textwrap
@@ -140,7 +140,7 @@ def main():
 
     project_count = len(mini_projects)
     mr_count = len(mini_mrs)
-    print("🧰 %d MRs in %d Prj" % (mr_count, project_count))
+    print("🧰 %d MRs" % mr_count)
     print("---")
     print("Gitlab Merge Requests (%d notes)|color=blue" % comment_counts)
     for p in sorted(mini_projects, key=lambda p: p['name_with_namespace']):
